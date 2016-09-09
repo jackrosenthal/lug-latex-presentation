@@ -12,7 +12,7 @@
 \usepackage{wrapfig}
 \usepackage{mflogo}
 \usetheme{Luebeck}
-\title{A presentation in \LaTeX{} beamer on \TeX{}/\LaTeX{}.}
+\title{A presentation in \LaTeX{} Beamer on \TeX{}/\LaTeX{}}
 \author{Jack Rosenthal}
 \institute{CSM Linux Users Group}
 \date{24 September 2015}
@@ -53,37 +53,37 @@
 \begin{frame}
     \titlepage
 \end{frame}
-\title{\TeX{}/\LaTeX}
-\begin{frame}
-    \titlepage
-\end{frame}
-\title{\texttt{lugtex.tex}}
-\begin{frame}
-    \titlepage
-\end{frame}
-\begin{frame}
-    \frametitle{What are these things you say?}
-    \centering
-    \only<2,22>{\includegraphics[width=\linewidth]{texfz}}
-    \only<3>{\includegraphics[width=\linewidth]{digital}}
-    \only<4>{\includegraphics[width=\linewidth]{typesetter}}
-    \only<5,20>{\includegraphics[width=\linewidth]{system}}
-    \only<6>{\includegraphics[width=\linewidth]{design}}
-    \only<7>{\includegraphics[width=\linewidth]{by}}
-    \only<8>{\includegraphics[height=0.7\linewidth]{donald}}
-    \only<9>{\includegraphics[width=\linewidth]{E}}
-    \only<10>{\includegraphics[width=\linewidth]{knuth}}
-    \only<11>{\bigtt for (;;)}
-    \only<12>{\includegraphics[width=\linewidth]{create}}
-    \only<13>{\includegraphics[width=\linewidth]{beautiful}}
-    \only<14>{\includegraphics[width=\linewidth]{documents}}
-    \only<15>{\includegraphics[width=\linewidth]{and}}
-    \only<16>{\includegraphics[height=0.7\paperheight]{texbook}}
-    \only<17>{\includegraphics[width=0.7\paperheight]{latexlion}}
-    \only<18>{\includegraphics[width=0.8\linewidth]{/home/jack/Dropbox/classes/cs/261/final/definition/definition.pdf}}
-    \only<19>{\includegraphics[width=\linewidth]{preparation}}
-    \only<21>{\includegraphics[width=\linewidth]{written}}
-\end{frame}
+%\title{\TeX{}/\LaTeX}
+%\begin{frame}
+%    \titlepage
+%\end{frame}
+%\title{\texttt{lugtex.tex}}
+%\begin{frame}
+%    \titlepage
+%\end{frame}
+%\begin{frame}
+%    \frametitle{What are these things you say?}
+%    \centering
+%    \only<2,22>{\includegraphics[width=\linewidth]{texfz}}
+%    \only<3>{\includegraphics[width=\linewidth]{digital}}
+%    \only<4>{\includegraphics[width=\linewidth]{typesetter}}
+%    \only<5,20>{\includegraphics[width=\linewidth]{system}}
+%    \only<6>{\includegraphics[width=\linewidth]{design}}
+%    \only<7>{\includegraphics[width=\linewidth]{by}}
+%    \only<8>{\includegraphics[height=0.7\linewidth]{donald}}
+%    \only<9>{\includegraphics[width=\linewidth]{E}}
+%    \only<10>{\includegraphics[width=\linewidth]{knuth}}
+%    \only<11>{\bigtt for (;;)}
+%    \only<12>{\includegraphics[width=\linewidth]{create}}
+%    \only<13>{\includegraphics[width=\linewidth]{beautiful}}
+%    \only<14>{\includegraphics[width=\linewidth]{documents}}
+%    \only<15>{\includegraphics[width=\linewidth]{and}}
+%    \only<16>{\includegraphics[height=0.7\paperheight]{texbook}}
+%    \only<17>{\includegraphics[width=0.7\paperheight]{latexlion}}
+%    \only<18>{\includegraphics[width=0.8\linewidth]{/home/jack/Dropbox/classes/cs/261/final/definition/definition.pdf}}
+%    \only<19>{\includegraphics[width=\linewidth]{preparation}}
+%    \only<21>{\includegraphics[width=\linewidth]{written}}
+%\end{frame}
 
 \begin{frame}
     \frametitle{The Name of the Game}
@@ -124,10 +124,10 @@
     \frametitle{Trying to Math in Word}
     \centering
     \textbf{\LaTeX}
-    \begin{equation}
-        -\int_0^{2 \pi} \frac{kQ\, d\theta}{2\pi(a^2 +
-        x^2)^{3/2}} (a \sin \theta \,\hat\jmath) = 0
-    \end{equation}
+    \begin{displaymath}
+        -\int_0^{2 \pi} \frac{kQ\, d\theta}{2\pi{\left(a^2 +
+        x^2\right)}^{3/2}} (a \sin \theta \,\hat\jmath) = 0
+    \end{displaymath}
     \vskip 10pt
     \textbf{Word}\par
     \vskip 5pt
@@ -142,7 +142,7 @@
     \begin{document}
     *@\tikzmark{B1}@*Hello World from \LaTeX !
     \begin{equation}
-      \sum_{n = 0}^\infty {x^n \over n!} = e^x
+        \sum_{n = 0}^\infty \frac{x^n}{n!} = e^x
     \end{equation}*@\tikzmark{B2}@*
     \end{document}
     \end{lstlisting}

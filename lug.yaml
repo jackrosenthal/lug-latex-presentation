@@ -1,0 +1,8 @@
+Title: "A Presentation in LaTeX Beamer on TeX/LaTeX"
+Description: >
+    A tutorial (and selling point) on using LaTeX.
+Date: 2015-09-24
+Thumbnail: latexlion.png
+Files:
+    LaTeX: lugtex.tex
+    SlidesPDF: lugtex.pdf
